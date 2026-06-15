@@ -5,6 +5,304 @@
 	(uuid "22b7eb55-7ec4-4f58-b20a-dfa43b95871e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
@@ -1254,6 +1552,12 @@
 		(uuid "03c70b9a-f90b-4776-90a7-db864f868012")
 	)
 	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04637289-071e-4a9f-83bd-50b5eef96512")
+	)
+	(junction
 		(at 81.28 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1270,6 +1574,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07f7f561-6bac-4ebf-b346-aaf0882e0836")
+	)
+	(junction
+		(at 204.47 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08f7eaa0-3eaa-48df-96c0-2cd0ef411214")
 	)
 	(junction
 		(at 210.82 137.16)
@@ -1432,6 +1742,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "458f2f47-01d3-40a9-8a15-af05c565f788")
+	)
+	(junction
+		(at 138.43 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45a14197-c813-4209-b223-68c6fe82800e")
+	)
+	(junction
+		(at 196.85 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "469235e3-179b-403b-a66e-36a896d90e1c")
 	)
 	(junction
 		(at 85.09 121.92)
@@ -1720,6 +2042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89b80977-df72-4b81-8021-609bcb85ab44")
+	)
+	(junction
+		(at 130.81 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac4d33b-c50c-4da8-a493-23408536b351")
 	)
 	(junction
 		(at 161.29 121.92)
@@ -2389,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 161.29) (xy 149.86 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f9dd02-c4a5-4474-9bd9-ff36f15cfda7")
+	)
+	(wire
+		(pts
 			(xy 242.57 116.84) (xy 242.57 121.92)
 		)
 		(stroke
@@ -2416,6 +2754,16 @@
 			(type default)
 		)
 		(uuid "17d6feb2-469f-441c-a976-5aa64eee0de1")
+	)
+	(wire
+		(pts
+			(xy 204.47 107.95) (xy 204.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ece5a2-5bef-4ac2-9f27-408870aa3b28")
 	)
 	(wire
 		(pts
@@ -2656,6 +3004,16 @@
 			(type default)
 		)
 		(uuid "2b355f20-c87c-425d-bc18-91dde5ccd088")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 138.43 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b829359-347b-4291-8c88-11897ac3ab33")
 	)
 	(wire
 		(pts
@@ -3299,6 +3657,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 107.95) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647226b6-c9fd-4af2-bc0f-e5f5cb6ccbdf")
+	)
+	(wire
+		(pts
 			(xy 135.89 81.28) (xy 135.89 90.17)
 		)
 		(stroke
@@ -3359,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 166.37) (xy 80.01 165.1)
+			(xy 34.29 71.12) (xy 34.29 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3416,6 +3784,16 @@
 			(type default)
 		)
 		(uuid "6e193fc6-5545-45af-a024-c78508ae83dc")
+	)
+	(wire
+		(pts
+			(xy 196.85 107.95) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f891248-2db1-4359-9be3-3191582ceb48")
 	)
 	(wire
 		(pts
@@ -3586,6 +3964,16 @@
 			(type default)
 		)
 		(uuid "7ce662d7-5803-41cf-8006-fa74c8efd161")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df7d1ef-8fa7-4cd5-9806-69aa2866f133")
 	)
 	(wire
 		(pts
@@ -3779,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 165.1) (xy 77.47 165.1)
+			(xy 34.29 69.85) (xy 31.75 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 175.26) (xy 80.01 173.99)
+			(xy 34.29 80.01) (xy 34.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3926,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "9aa0c16e-b287-49af-8203-0fb16605118a")
+	)
+	(wire
+		(pts
+			(xy 212.09 154.94) (xy 212.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba70d30-54ef-4b89-a7f7-ace5d1bc206c")
 	)
 	(wire
 		(pts
@@ -4079,6 +4477,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 107.95) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6540ab2-952c-4fcd-8a1c-811ae7779e91")
+	)
+	(wire
+		(pts
 			(xy 158.75 78.74) (xy 161.29 78.74)
 		)
 		(stroke
@@ -4086,6 +4494,16 @@
 			(type default)
 		)
 		(uuid "a7c12375-46cc-4c8c-9ba1-bd1233f14a9a")
+	)
+	(wire
+		(pts
+			(xy 204.47 113.03) (xy 204.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a811257b-d0a8-42d2-8d7c-12fb7a8d3da2")
 	)
 	(wire
 		(pts
@@ -4379,6 +4797,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 107.95) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c052a5c7-5a6d-4d0b-8279-0718c6824222")
+	)
+	(wire
+		(pts
 			(xy 194.31 58.42) (xy 194.31 62.23)
 		)
 		(stroke
@@ -4596,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "d7fac534-5ffc-4fbb-b1c0-72832ef14453")
+	)
+	(wire
+		(pts
+			(xy 86.36 157.48) (xy 86.36 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d915f04c-1759-46ea-bddb-acd70f02cbe9")
 	)
 	(wire
 		(pts
@@ -4969,6 +5407,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 113.03) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5106731-6717-4af9-be52-7f8f2a1b3630")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 120.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7dc9045-2d79-417e-a7ad-ae10bff98a0d")
+	)
+	(wire
+		(pts
 			(xy 113.03 114.3) (xy 113.03 116.84)
 		)
 		(stroke
@@ -5067,6 +5525,16 @@
 		)
 		(uuid "00ed8a90-7d2f-49c0-be41-0a53164689ad")
 	)
+	(label "phaseC-"
+		(at 212.09 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a12599c-0424-4288-9b1a-f491cc5c9523")
+	)
 	(label "BL2"
 		(at 144.78 134.62 0)
 		(effects
@@ -5097,7 +5565,7 @@
 		)
 		(uuid "1c2e5c45-2102-477a-8fe5-20359e835385")
 	)
-	(label "TerminalA"
+	(label "phaseA-"
 		(at 58.42 107.95 180)
 		(effects
 			(font
@@ -5116,6 +5584,16 @@
 			(justify left bottom)
 		)
 		(uuid "368bb6d5-dfe2-4d8e-b432-258e0830422b")
+	)
+	(label "phaseC+"
+		(at 204.47 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37612dcf-9b36-4119-b044-be35844543a0")
 	)
 	(label "temp3"
 		(at 229.87 114.3 180)
@@ -5137,7 +5615,7 @@
 		)
 		(uuid "3bb298c9-1276-4c74-86f3-12711ce38f36")
 	)
-	(label "phaseC"
+	(label "phaseC+"
 		(at 219.71 105.41 0)
 		(effects
 			(font
@@ -5148,7 +5626,7 @@
 		(uuid "4b604eeb-1044-402c-88af-a5648f465737")
 	)
 	(label "temp1"
-		(at 77.47 165.1 180)
+		(at 31.75 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,6 +5665,26 @@
 		)
 		(uuid "561b2fe0-d9c0-4f19-b511-1c566c298bbf")
 	)
+	(label "phaseB-"
+		(at 149.86 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56755d07-22c8-4cae-a6a7-54794484f84c")
+	)
+	(label "phaseA+"
+		(at 46.99 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57f9f33b-3338-44f8-8633-5d5c9c302e78")
+	)
 	(label "CL2"
 		(at 210.82 134.62 0)
 		(effects
@@ -5197,7 +5695,17 @@
 		)
 		(uuid "594869c4-6f75-45d5-b293-5a2ddb567329")
 	)
-	(label "phaseA"
+	(label "phaseC-"
+		(at 186.69 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62a02494-0d99-421e-8658-35bcb6ab8017")
+	)
+	(label "phaseA+"
 		(at 67.31 107.95 0)
 		(effects
 			(font
@@ -5217,6 +5725,16 @@
 		)
 		(uuid "6b0c047d-eae1-4e92-b5da-452620cceb28")
 	)
+	(label "phaseB+"
+		(at 138.43 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "739de60b-e910-44b3-a1d2-c85d29a0032f")
+	)
 	(label "AH3"
 		(at 97.79 91.44 0)
 		(effects
@@ -5227,7 +5745,7 @@
 		)
 		(uuid "741579c8-1517-4de3-b47a-68b962615ed2")
 	)
-	(label "phaseB"
+	(label "phaseB+"
 		(at 154.94 105.41 0)
 		(effects
 			(font
@@ -5257,7 +5775,7 @@
 		)
 		(uuid "811c3462-1905-44f3-b4b8-e29cc3b741db")
 	)
-	(label "phaseA"
+	(label "phaseA+"
 		(at 80.01 77.47 0)
 		(effects
 			(font
@@ -5287,6 +5805,16 @@
 		)
 		(uuid "8c92fe78-82da-42ae-8f84-4f5906c37aed")
 	)
+	(label "phaseA-"
+		(at 86.36 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90fdb0cd-b098-4ea8-83af-22111c858875")
+	)
 	(label "BL1"
 		(at 127 143.51 90)
 		(effects
@@ -5307,7 +5835,7 @@
 		)
 		(uuid "985ce469-a10f-4030-b2da-546e5e255527")
 	)
-	(label "phaseC"
+	(label "phaseC+"
 		(at 209.55 77.47 0)
 		(effects
 			(font
@@ -5337,6 +5865,16 @@
 		)
 		(uuid "a4367d52-3f1f-4337-b2e9-f01a8fe52d6d")
 	)
+	(label "phaseB+"
+		(at 120.65 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7713945-2b2b-42de-9e63-9f715ccdb796")
+	)
 	(label "temp1"
 		(at 100.33 116.84 180)
 		(effects
@@ -5347,7 +5885,7 @@
 		)
 		(uuid "ad1aa235-a78d-442e-b10c-f1d03d0c52af")
 	)
-	(label "phaseA"
+	(label "phaseA+"
 		(at 90.17 105.41 0)
 		(effects
 			(font
@@ -5377,6 +5915,16 @@
 		)
 		(uuid "c3e5af28-e2aa-4fcc-b353-1723fa5e0463")
 	)
+	(label "phaseB-"
+		(at 130.81 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5359a4a-dba9-4890-9edb-66486dcd7363")
+	)
 	(label "AL1"
 		(at 63.5 143.51 90)
 		(effects
@@ -5387,7 +5935,17 @@
 		)
 		(uuid "cc1a2681-cc0b-4a37-a519-7a77904a09a4")
 	)
-	(label "phaseB"
+	(label "phaseC-"
+		(at 196.85 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2574aa5-c2d5-4c89-af9c-24f9f40ae5bf")
+	)
+	(label "phaseB+"
 		(at 143.51 77.47 0)
 		(effects
 			(font
@@ -5406,6 +5964,36 @@
 			(justify left bottom)
 		)
 		(uuid "e1a1ecdc-4fc3-41f2-91f9-88b17c9ee5c1")
+	)
+	(label "phaseC+"
+		(at 186.69 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efe108e1-0ce1-460e-849b-27d9280e1862")
+	)
+	(label "phaseB-"
+		(at 120.65 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6d4d60c-01c5-4403-9457-78cf55112b59")
+	)
+	(label "phaseA-"
+		(at 46.99 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffab149f-1263-41df-b47d-00cbd9cd2580")
 	)
 	(global_label "V+"
 		(shape input)
@@ -5510,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
 			(at 62.23 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -5729,6 +6317,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 212.09 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e293ba-ba4e-4315-905b-f300cd7d45fd")
+		(property "Reference" "J27"
+			(at 213.36 159.3849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminal C"
+			(at 213.36 161.9249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:225685-E"
+			(at 212.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 212.09 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4cfd7d3-f005-42a5-9a5a-27a24cf459dc")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 153.67 54.61 0)
 		(unit 1)
@@ -5831,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Value" "PhaseB"
+		(property "Value" "phaseB+"
 			(at 172.72 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +7025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820u_100v"
+		(property "Value" "470u_200v"
 			(at 107.95 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +7036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 106.68 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6499,6 +7166,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 86.36 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22805c27-fb52-4478-8754-17c416dafc63")
+		(property "Reference" "J18"
+			(at 87.63 161.9249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminal A"
+			(at 87.63 164.4649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:225685-E"
+			(at 86.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 86.36 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0e2fc84-8c43-4323-8356-4dfbef6de6b1")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6695,6 +7441,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "286f9214-8595-4217-b7e3-8e8d492fbd63")
+		(property "Reference" "R33"
+			(at 200.66 110.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 200.66 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 200.66 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f57844d9-6d48-4de6-beb2-b0b4d746b9ef")
+		)
+		(pin "1"
+			(uuid "e72d7085-3f1f-4ffc-84a2-7bcb08043c8e")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -6948,6 +7773,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 181.61 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33d240f1-9ac3-4385-8279-6866f1972d57")
+		(property "Reference" "J17"
+			(at 181.61 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CurrentC"
+			(at 181.61 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a533991c-1862-4de2-ad3c-2aa79ebd9f08")
+		)
+		(pin "1"
+			(uuid "5601113b-b200-4c70-9034-f46b964f5e0a")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 232.41 95.25 0)
 		(unit 1)
@@ -7086,7 +7990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820u_100v"
+		(property "Value" "470u_200v"
 			(at 77.47 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,7 +8001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7340,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
 			(at 62.23 119.888 90)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +8710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820u_100v"
+		(property "Value" "470u_200v"
 			(at 62.23 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +8721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 60.96 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +8791,7 @@
 				)
 			)
 		)
-		(property "Value" "PhaseA"
+		(property "Value" "phaseA+"
 			(at 106.68 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,7 +9079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820u_100v"
+		(property "Value" "470u_200v"
 			(at 92.71 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +9090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D25.0mm_P10.00mm_SnapIn"
 			(at 91.44 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8590,7 +9494,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 170.18 180)
+		(at 34.29 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8600,7 +9504,7 @@
 		(dnp no)
 		(uuid "6c25cb76-3f96-4d9e-abdf-0407971eaeb3")
 		(property "Reference" "R15"
-			(at 78.486 169.926 0)
+			(at 32.766 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8611,7 +9515,7 @@
 			)
 		)
 		(property "Value" "NTC 10K"
-			(at 82.804 165.862 90)
+			(at 37.084 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8622,7 +9526,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
-			(at 81.788 170.18 90)
+			(at 36.068 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +9537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 170.18 0)
+			(at 34.29 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +9548,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 170.18 0)
+			(at 34.29 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,6 +9959,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77a304ad-37af-4a5f-a1e8-bb941d30c34b")
+		(property "Reference" "R30"
+			(at 134.62 110.998 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 134.62 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 134.62 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd97a7c0-622d-4b60-a71f-631f0eefdc7a")
+		)
+		(pin "1"
+			(uuid "1a0dd7ed-98cb-494c-b0a8-d38ab471aabf")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9763,6 +10746,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91294c1d-7d08-4cce-b76a-2ae68f337a52")
+		(property "Reference" "R32"
+			(at 200.66 105.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 200.66 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 200.66 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b03d22b8-b032-4208-9c7f-61f79d125387")
+		)
+		(pin "1"
+			(uuid "a91dc2fb-f59c-4cbb-98a3-8ab11d97ac4f")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
 		(at 234.95 114.3 0)
 		(unit 1)
@@ -9784,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Value" "PhaseB"
+		(property "Value" "phaseB+"
 			(at 236.22 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +10912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 175.26 0)
+		(at 34.29 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9860,7 +10922,7 @@
 		(dnp no)
 		(uuid "946a656a-b2af-464e-a764-43d99acd94e2")
 		(property "Reference" "#PWR05"
-			(at 80.01 181.61 0)
+			(at 34.29 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +10933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 179.07 0)
+			(at 34.29 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9881,7 +10943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 175.26 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9892,7 +10954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 175.26 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +10965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 175.26 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,6 +10982,86 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 41.91 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "962341d8-abd3-4b46-ad5c-0ac0c7edd70c")
+		(property "Reference" "J15"
+			(at 41.91 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CurrentA"
+			(at 41.91 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce163f33-78bb-442c-96b8-739bbb1012e6")
+		)
+		(pin "1"
+			(uuid "b9fb67c4-66a0-41cf-9541-9516e435c9e4")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -10604,6 +11746,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 149.86 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3b28ff8-6298-4f39-be15-6d855c28e4df")
+		(property "Reference" "J26"
+			(at 151.13 165.7349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Terminal B"
+			(at 151.13 168.2749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "custom:225685-E"
+			(at 149.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 149.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b8bb9d8-f8ba-4cd1-9853-423d6bf559e1")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -12044,6 +13265,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 115.57 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d67ca42f-7a65-43d8-8b09-51a3f5409e1e")
+		(property "Reference" "J16"
+			(at 115.57 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CurrentB"
+			(at 115.57 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 115.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e69fc5df-84a6-4f72-8f8f-4af363bee22a")
+		)
+		(pin "1"
+			(uuid "62afb98f-2232-4470-b899-7df59aa1824c")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 179.07 54.61 0)
 		(unit 1)
@@ -12556,6 +13856,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e89ab54b-6527-48a3-a076-f39b9408a7b1")
+		(property "Reference" "R31"
+			(at 134.62 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 134.62 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 134.62 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97e35bdb-0014-4839-875e-2f9d2c47585d")
+		)
+		(pin "1"
+			(uuid "fb216dd9-de3a-467a-a1d7-1464426c21db")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -13128,7 +14507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
 			(at 62.23 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -13405,6 +14784,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f27f1093-1075-4393-91a0-5ce9c9cf1594")
+		(property "Reference" "R29"
+			(at 134.62 105.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 134.62 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 134.62 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d25f69e3-7637-4b1e-979c-f0c5519c4f03")
+		)
+		(pin "1"
+			(uuid "0e7e6e75-de01-4689-890b-b1b642368cbb")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13733,6 +15191,85 @@
 			(project "PowerStage"
 				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdc1ece3-22f8-45e0-abf8-d959c86f0bf1")
+		(property "Reference" "R34"
+			(at 200.66 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1m"
+			(at 200.66 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:ShuntResistor_P2mmD10mm"
+			(at 200.66 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35429437-ee17-4497-9809-f8d2be1b4ee0")
+		)
+		(pin "1"
+			(uuid "0751c361-1fae-4644-a22b-57f446e8c347")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/22b7eb55-7ec4-4f58-b20a-dfa43b95871e"
+					(reference "R34")
 					(unit 1)
 				)
 			)
